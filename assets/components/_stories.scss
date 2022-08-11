@@ -1,0 +1,13 @@
+.stories {
+  margin-top: 178px;
+  &__item {
+    @include font("Playfair Display", 700, 36px, #000000);
+  }
+  &__posts {
+    margin-top: 26px;
+  }
+  &__img {
+		border-radius: 15px;
+    width: 271px;
+  }
+}

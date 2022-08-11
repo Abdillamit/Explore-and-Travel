@@ -1,0 +1,48 @@
+body{
+	font-family: 'Inter';
+	max-width: 100%;
+	height: 100vh;
+	animation: changeBg 10s linear infinite;
+	margin: 0;
+}
+@keyframes changeBg{
+	0%{
+		background-color: #9c27b0;
+	}
+	20%{
+		background-color: #009688;
+	}
+	40%{
+		background-color: #2196f3;
+	}
+	60%{
+		background-color: #ff5722;
+	}
+	80%{
+		background-color: yellowgreen;
+	}
+	100%{
+		background-color: #9c27b0;
+	}
+}
+
+*,*:before,*:after{
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+	cursor: none;
+}
+ul{
+	list-style: none;
+	padding: 0;
+}
+h1,h2,h3,h4,h5,h6,p,ul{
+	margin: 0;
+}
+button{
+	cursor: none;
+	border: none;
+}
+a{
+	text-decoration: none;
+}

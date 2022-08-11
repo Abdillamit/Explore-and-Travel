@@ -1,0 +1,58 @@
+.hero {
+  &__content {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__text {
+    max-width: 50%;
+    margin-top: 50px;
+    left: 105px;
+  }
+  &__heading {
+    @include font("Playfair Display", 700, 64px, #202336);
+		width: 500px;
+  }
+  &__title {
+    @include font("Inter", 600, 22px, #202336);
+    margin-top: 20px;
+  }
+  &__select {
+    @include font('Inter', 400, 15px, #4A4C53);
+    margin-top: 30px;
+    margin-right: 20px;
+    padding: 15px;
+    width: 220px;
+    height: 35px;
+    left: 191px;
+    top: 619px;
+    border: 0.8px solid #afb0b9;
+    border-radius: 6px;
+    align-items: center;
+  }
+  &__btn {
+    @include font("Inter", 400, 15px, #fb8f1d);
+		margin-top: 47px;
+    border: 1px solid #fb8f1d;
+    background: #fff;
+    border-radius: 4px;
+    padding: 9px 30px;
+    transition: 0.5s;
+    &:hover {
+      background: #fb8f1d;
+      color: #fff;
+    }
+  }
+  &__idle {
+    width: 32px;
+    height: 2px;
+    left: 191px;
+    top: 482px;
+    background: #202336;
+    border-radius: 4px;
+    margin-top: 21px;
+  }
+
+  &__logo {
+    max-width: 100%;
+  }
+}
