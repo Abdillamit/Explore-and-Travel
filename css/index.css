@@ -213,18 +213,11 @@
   color: #000000;
 }
 .category__btn {
+  font-family: "Inter";
   font-weight: 600;
   font-size: 17px;
-  display: flex;
-  align-items: center;
   color: #FB8F1D;
-}
-.category___img {
-  width: 467px;
-  height: 337px;
-  left: 1099px;
-  top: 2034px;
-  background: url(../img/category/indonesia.png);
+  align-items: center;
 }
 
 .app__content {
